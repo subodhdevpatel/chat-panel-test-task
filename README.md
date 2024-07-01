@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Certainly! Here's an expanded README.md file for your Next.js project related to a chat panel for groups, similar to WhatsApp:
 
-## Getting Started
+---
 
-First, run the development server:
+# Chat Panel Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project implements a chat panel for group communication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for server-rendered applications.
+- **TypeScript**: Typed JavaScript for improved code quality.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vercel**: Deployment platform for serverless functions and static sites.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Node Version
 
-## Learn More
+v20
 
-To learn more about Next.js, take a look at the following resources:
+## Project Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project aims to create a user-friendly chat panel for group conversations. The UI design is based on Figma designs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Components
 
-## Deploy on Vercel
+### Sender.tsx
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The Sender component renders messages sent by the current user in the chat panel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Receiver.tsx
+
+The Receiver component displays messages received from other participants in the chat group.
+
+### Main.tsx
+
+The Main component manages the main content area of the chat panel, including the list of messages and input for sending new messages.
+
+### Header.tsx
+
+The Header component contains the header of the chat panel, displaying group information and options.
+
+### Footer.tsx
+
+The Footer component includes the footer of the chat panel, potentially featuring additional controls or information.
+
+
+## Setup Instructions
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```
+   git clone <repo_link>
+   cd <project_name>
+   ```
+
+2. Install dependencies using npm:
+
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the project running locally.
